@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\Asp.NetMvcDemo.csproj": {}
+    "E:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\Asp.NetMvcDemo.csproj": {}
   },
   "projects": {
-    "e:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\Asp.NetMvcDemo.csproj": {
+    "E:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\Asp.NetMvcDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\Asp.NetMvcDemo.csproj",
+        "projectUniqueName": "E:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\Asp.NetMvcDemo.csproj",
         "projectName": "Asp.NetMvcDemo",
-        "projectPath": "e:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\Asp.NetMvcDemo.csproj",
+        "projectPath": "E:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\Asp.NetMvcDemo.csproj",
         "packagesPath": "C:\\Users\\akki1\\.nuget\\packages\\",
-        "outputPath": "e:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\obj\\",
+        "outputPath": "E:\\developer\\MVC.Net\\src\\Asp.NetMvcDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\akki1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,20 @@
             "Microsoft.AspNetCore.Razor.Runtime": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
             }
           },
           "imports": [
